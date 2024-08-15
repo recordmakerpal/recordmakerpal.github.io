@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordmaker Pal</title>
+    <link rel="icon" href="/dist/img/logo_circullar.png" type="image/png">
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+     <header class="bg-transparent absolute z-10 top-0 left-0 w-full flex items-center">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="py-6">
+                        <img src="/dist/img/Recordmaker_Pal_Logo_Fun_II-removebg.png" alt="RecordmakerPal" class="max-w-24">
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="burger" name="burger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="burger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="burger-line transition duration-300 ease-in-out"></span>
+                        <span class="burger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About Us</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+     </header>
+    
+
+    <!-- Home section  -->
+    <section id="home" class="pt-36 pb-32 bg-dot-pattern">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <img src="dist/img/Recordmaker_Pal_Logo_Fun_II-removebg.png" alt="Recordmaker Pal" class="max-w-full mx-auto">
+                </div>
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-4xl font-bold text-primary lg:text-5xl">Recordmaker Pal</h1>
+                    <h2 class="font-semibold text-dark text-lg mb-5">Music Production</h2>
+                    <p class="font-medium text-dark leading-relaxed mb-10">Bandung based music production. Produce musics hand in hand and friends to friends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+     <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="mb-10 w-full self-center px-4 lg:w-1/2">
+                    <h4 class="mb-3 text-lg font-bold uppercase text-primary">About us</h4>
+                    <h2 class="mb-5 max-w-md text-3xl font-bold text-dark">Let's make musics!</h2>
+                    <p class="max-w-xl text-base font-medium text-secondary">Collaborate with us to produce your music from scratch. Our services </p>
+                </div>
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h3 class="mb-4 text-2xl font-semibold text-dark">Connect with us!</h3>
+                    <p class="mb-6 text-base font-medium text-secondary lg:text-lg">Let's get connected and feel free to contact us on Instagram, fiverr, and through our email.</p>
+                    <div class="flex items-center">
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/recordmakerpal/"
+                            target="_blank"
+                            class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                        >
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Instagram</title>
+                                <path
+                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                                />
+                          </svg>
+                        </a>
+
+                        <!-- Fiverr -->
+                        <a href="https://www.fiverr.com/recordmakingpal"
+                            target="_blank"
+                            class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" class="fill-current" role="img" viewBox="0 0 24 24">
+                                <title>Fiverr</title>
+                                <path 
+                                    d="M23.004 15.588a.995.995 0 1 0 .002-1.99.995.995 0 0 0-.002 1.99zm-.996-3.705h-.85c-.546 0-.84.41-.84 1.092v2.466h-1.61v-3.558h-.684c-.547 0-.84.41-.84 1.092v2.466h-1.61v-4.874h1.61v.74c.264-.574.626-.74 1.163-.74h1.972v.74c.264-.574.625-.74 1.162-.74h.527v1.316zm-6.786 1.501h-3.359c.088.546.43.858 1.006.858.43 0 .732-.175.83-.487l1.425.4c-.351.848-1.22 1.364-2.255 1.364-1.748 0-2.549-1.355-2.549-2.515 0-1.14.703-2.505 2.45-2.505 1.856 0 2.471 1.384 2.471 2.408 0 .224-.01.37-.02.477zm-1.562-.945c-.04-.42-.342-.81-.889-.81-.508 0-.81.225-.908.81h1.797zM7.508 15.44h1.416l1.767-4.874h-1.62l-.86 2.837-.878-2.837H5.72l1.787 4.874zm-6.6 0H2.51v-3.558h1.524v3.558h1.591v-4.874H2.51v-.302c0-.332.235-.536.606-.536h.918V8.412H2.85c-1.162 0-1.943.712-1.943 1.755v.4H0v1.316h.908v3.558z"/>
+                            </svg>
+                        </a>
+
+                        <!-- Gmail -->
+                        <a href="mailto:recordmakerpal@gmail.com"
+                            target="_blank"
+                            class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                        >
+                            <svg role="img" viewBox="0 0 24 24" width="20" class="fill-current" xmlns="http://www.w3.org/2000/svg">
+                                <title>Gmail</title>
+                                <path 
+                                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Portfolio -->
+    <section id="portfolio" class="pt-28 pb-24 bg-light">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Our latest projects</h2>
+                    <p class="font-medium text-md text-secondary">Here's some musics that we have worked on</p>
+                </div>
+            </div>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/75xCUZilyIijrVl85EOZHg?utm_source=generator" width="100%" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        </div>
+    </section>
+
+    <!-- Clients -->
+     <section id="clients" class="pt-40 pb-32 bg-dark">
+        <div class="container">
+            <div class="w-full px-2">
+                <div class="max-w-xl mx-auto text-center mb-12">
+                    <h4 class="font-semibold text-lg text-inverse mb-12">Clients</h4>
+                    <h2 class="font-bold text-light text-3xl mb-16">Artists who have worked with us</h2>
+                    <p class="font-medium text-md text-secondary">
+                          <span class="hover:text-sky-50">Kantha</span>
+                        • <span class="hover:text-sky-50">aditt</span>
+                        • <span class="hover:text-sky-50">Krsnajie</span>
+                        • <span class="hover:text-sky-50">The Show of Shalazar</span>
+                        • <span class="hover:text-sky-50">Laurent Dupont</span>
+                        • <span class="hover:text-sky-50">Fafa</span>
+                        • <span class="hover:text-sky-50">ditya</span>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Footer -->
+      <footer class="bg-primary pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="mb-12 w-full px-4 self-center font-medium text-slate-300 md:w-1/2">
+                    <h2 class="mb-5 text-4xl font-bold text-sky-50">Recordmaker Pal</h2>
+                    <h3 class="mb-2 text-2xl font-bold">Contact us!</h3>
+                    <p>recordmakerpal@gmail.com</p>
+                    <p>Bandung, West Java</p>
+                </div>
+                <div class="mb-12 w-full px-4 self-center md:w-1/2">
+                    <h3 class="mb-5 text-xl font-semibold text-white">Links</h3>
+                    <ul class="text-slate-300">
+                      <li>
+                        <a href="#home" class="mb-3 inline-block text-base hover:text-dark">Home</a>
+                      </li>
+                      <li>
+                        <a href="#about" class="mb-3 inline-block text-base hover:text-dark">About Us</a>
+                      </li>
+                      <li>
+                        <a href="#portfolio" class="mb-3 inline-block text-base hover:text-dark">Portfolio</a>
+                      </li>
+                      <li>
+                        <a href="#clients" class="mb-3 inline-block text-base hover:text-dark">Clients</a>
+                      </li>
+                    </ul>
+                </div>
+                <div class="w-full border-t border-dark pt-10">
+                    <div class="flex items-center justify-center">
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/recordmakerpal/"
+                            target="_blank"
+                            class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-dark hover:bg-dark  hover:text-primary"
+                        >
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Instagram</title>
+                                <path
+                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                                />
+                          </svg>
+                        </a>
+
+                        <!-- Fiverr -->
+                        <a href="https://www.fiverr.com/recordmakingpal"
+                            target="_blank"
+                            class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-dark hover:bg-dark hover:text-primary"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" class="fill-current" role="img" viewBox="0 0 24 24">
+                                <title>Fiverr</title>
+                                <path 
+                                    d="M23.004 15.588a.995.995 0 1 0 .002-1.99.995.995 0 0 0-.002 1.99zm-.996-3.705h-.85c-.546 0-.84.41-.84 1.092v2.466h-1.61v-3.558h-.684c-.547 0-.84.41-.84 1.092v2.466h-1.61v-4.874h1.61v.74c.264-.574.626-.74 1.163-.74h1.972v.74c.264-.574.625-.74 1.162-.74h.527v1.316zm-6.786 1.501h-3.359c.088.546.43.858 1.006.858.43 0 .732-.175.83-.487l1.425.4c-.351.848-1.22 1.364-2.255 1.364-1.748 0-2.549-1.355-2.549-2.515 0-1.14.703-2.505 2.45-2.505 1.856 0 2.471 1.384 2.471 2.408 0 .224-.01.37-.02.477zm-1.562-.945c-.04-.42-.342-.81-.889-.81-.508 0-.81.225-.908.81h1.797zM7.508 15.44h1.416l1.767-4.874h-1.62l-.86 2.837-.878-2.837H5.72l1.787 4.874zm-6.6 0H2.51v-3.558h1.524v3.558h1.591v-4.874H2.51v-.302c0-.332.235-.536.606-.536h.918V8.412H2.85c-1.162 0-1.943.712-1.943 1.755v.4H0v1.316h.908v3.558z"/>
+                            </svg>
+                        </a>
+
+                        <!-- Gmail -->
+                        <a href="mailto:recordmakerpal@gmail.com"
+                            target="_blank"
+                            class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-dark hover:bg-dark hover:text-primary"
+                        >
+                            <svg role="img" viewBox="0 0 24 24" width="20" class="fill-current" xmlns="http://www.w3.org/2000/svg">
+                                <title>Gmail</title>
+                                <path 
+                                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+
+     <script src="dist/js/script.js"></script>
+
+
+</body>
+</html>
