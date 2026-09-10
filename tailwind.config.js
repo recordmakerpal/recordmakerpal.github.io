@@ -15,7 +15,8 @@ module.exports = {
         inverse : '#7dd3fc'
       },
       backgroundImage: {
-        'dot-pattern': "url('/dist/img/wallpaper-dot-pattern.jpg')"
+        'dot-pattern': "url('/dist/img/wallpaper-dot-pattern.jpg')",
+        'working': "url('/dist/img/wallpaper-working.jpg')",
       }
     },
   },
